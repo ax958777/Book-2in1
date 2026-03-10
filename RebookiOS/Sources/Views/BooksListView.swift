@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct BooksListView: View {
-    @State private var viewModel = BooksViewModel()
+    @Environment(AppEnvironment.self) private var viewModel
     @State private var selectedTab: Tab = .all
     
     enum Tab {

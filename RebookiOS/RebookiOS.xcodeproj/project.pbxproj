@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06FDC527FA1A0A010F80399E /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BE7D2960C58D78C5DAABE5 /* BooksViewModel.swift */; };
+		048BCE422F60848300D86644 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BCE412F60848300D86644 /* AppEnvironment.swift */; };
 		072FF0946FAC57770EC3525A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED019818B198E167752A73 /* Book.swift */; };
 		745F64222B3EE87DF9844CA0 /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42175C5FD40CE9A4F245D1 /* BookCardView.swift */; };
 		C2B4E92A28D8DF8F169F6E83 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB6106D6B2C519FFC52935 /* App.swift */; };
@@ -15,10 +15,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048BCE412F60848300D86644 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		6A42175C5FD40CE9A4F245D1 /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
 		90544C161B4C6EE2FEE2141A /* BooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListView.swift; sourceTree = "<group>"; };
 		93ED019818B198E167752A73 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		B9BE7D2960C58D78C5DAABE5 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
 		E51CD566F36BF292F707AA76 /* RebookiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RebookiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCB6106D6B2C519FFC52935 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +55,7 @@
 		7E6B3D2AFED3878FB3BC3610 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				B9BE7D2960C58D78C5DAABE5 /* BooksViewModel.swift */,
+				048BCE412F60848300D86644 /* AppEnvironment.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -104,8 +104,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 375DE485C85CD0DFCDD6BF5C /* Build configuration list for PBXProject "RebookiOS" */;
 			developmentRegion = en;
@@ -135,7 +133,7 @@
 				072FF0946FAC57770EC3525A /* Book.swift in Sources */,
 				745F64222B3EE87DF9844CA0 /* BookCardView.swift in Sources */,
 				FB2FB658AE609649A5347C60 /* BooksListView.swift in Sources */,
-				06FDC527FA1A0A010F80399E /* BooksViewModel.swift in Sources */,
+				048BCE422F60848300D86644 /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
